@@ -25,7 +25,7 @@ export default function Search() {
           type="search"
           value={searchTerm}
           onChange={handleChange}
-          placeholder="Search for games... Ex. Super Mario"
+          placeholder="Search games... (eg: Mario)"
         />
       </div>
     </form>

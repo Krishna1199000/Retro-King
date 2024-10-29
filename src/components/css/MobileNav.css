@@ -1,0 +1,39 @@
+/* MobileNav.css */
+
+/* Define keyframes for the drop-down animation */
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the mobile menu container */
+.mobile-menu {
+  animation: slideDown 0.3s ease forwards;
+}
+
+/* Additional styling for a smooth appearance */
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(bg-main);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each menu item for smoother hover */
+.mobile-menu li a {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.mobile-menu li a:hover {
+  background-color: var(--bg-accent-hover);
+  transform: translateX(5px);
+}
