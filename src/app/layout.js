@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${InterBodyFont.variable} ${DelaHeadingFont.variable} antialiased`}
+        className={`${InterBodyFont.variable} ${DelaHeadingFont.variable} antialiased bg-main`}
       >
         {children}
       </body>

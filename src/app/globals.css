@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply text-slate-50;
+  }
   body {
     font-family: var(--body-font);
   }
+
   /* h1 {
     font-family: var(--heading-font);
   } */
