@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav";
 export default function Header() {
   return (
     <header className="px-4 flex h-14 shrink-0 items-center gap-2">
-      <a href="/" className="flex items-center ">
+      <a href="/" className="flex items-center  ">
         <Image
           src="/logo.svg"
           alt="TheRetroKing"

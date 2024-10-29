@@ -80,11 +80,11 @@ export default function MobileNav() {
               <li key={item.name} className="border-accent" role="none">
                 <a
                   href={item.path}
-                  className="text-lg font-medium hover:bg-accent rounded-md flex gap-4 items-center border-b border-accent px-6 py-4"
+                  className="text-md font-medium hover:bg-accent rounded-md flex gap-4 items-center border-b border-accent px-6 py-4"
                   role="menuitem"
                 >
                   <item.icon className="w-6 h-6" aria-hidden="true" />
-                  {item.name}
+                  <span className="font-sans font-light">{item.name}</span>
                 </a>
               </li>
             ))}
