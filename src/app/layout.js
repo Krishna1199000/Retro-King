@@ -1,5 +1,11 @@
-import { Inter, Dela_Gothic_One } from "next/font/google";
+import { Inter, Dela_Gothic_One, Tiny5 } from "next/font/google";
 import "./globals.css";
+
+const LogoFont = Tiny5({
+  subsets: ["latin"],
+  variable: "--logo-font",
+  weight: "400",
+});
 
 const InterBodyFont = Inter({
   subsets: ["latin"],
@@ -22,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${InterBodyFont.variable} ${DelaHeadingFont.variable} antialiased bg-main`}
+        className={`${LogoFont.variable} ${InterBodyFont.variable} ${DelaHeadingFont.variable} antialiased bg-main`}
       >
         {children}
       </body>

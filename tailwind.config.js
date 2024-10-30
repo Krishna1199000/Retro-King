@@ -21,6 +21,7 @@ module.exports = {
       },
     },
     fontFamily: {
+      logo: "var(--logo-font)",
       display: "var(--heading-font)",
       sans: "var(--body-font)",
     },

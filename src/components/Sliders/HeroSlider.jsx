@@ -26,28 +26,28 @@ export default function HeroSlider() {
         scrollbar={{ draggable: true }}
         className="h-[500px] md:h-[400px] w-full mb-6 rounded-lg border border-accent-secondary bg-main"
         style={{
-          "--swiper-pagination-color": "#ffba08",
+          "--swiper-pagination-color": "#fff",
           "--swiper-pagination-bullet-inactive-color": "#999999",
           "--swiper-pagination-bullet-inactive-opacity": "1",
           "--swiper-pagination-bullet-size": "0.6em",
           "--swiper-pagination-bullet-horizontal-gap": "6px",
-          "--swiper-theme-color": "#446171",
+          "--swiper-theme-color": "#fff",
           "--swiper-navigation-size": "30px",
           "--swiper-navigation-sides-offset": "30px",
         }}
       >
         <SwiperSlide
-          className="bg-[url('/slide/slide-1.png')] md:bg-[url('/slide/slide-3.jpg')] bg-no-repeat bg-center md:bg-right p-20 bg-cover md:bg-contain  items-center"
+          className="bg-[url('/slide/slide-1.png')] md:bg-[url('/page/not-found.jpg')] bg-no-repeat bg-center md:bg-top p-20 bg-cover md:bg-cover  items-center"
           style={{ display: "flex" }}
         >
           <div className="max-w-3xl ">
-            <div className="text-zinc-400 md:text-accent text-sm mb-2 uppercase">
+            <div className="text-zinc-400 md:text-zinc-300 text-sm mb-2 uppercase">
               Free Arcade Games
             </div>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl uppercase shadow-lg">
               Play retro games for free
             </h1>
-            <p className="my-6 max-w-[418px] font-normal text-white md:text-zinc-400">
+            <p className="my-6 max-w-[418px] font-normal text-white md:text-zinc-100">
               Relive the classics! Dive into our collection of retro games and
               enjoy them for free. Start playing now!
             </p>
