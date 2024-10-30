@@ -19,7 +19,7 @@ const DelaHeadingFont = Dela_Gothic_One({
 });
 
 export const metadata = {
-  title: "Retro King",
+  title: "Retro King™",
   description:
     " A retro game store to experience the classic gaming experience",
 };

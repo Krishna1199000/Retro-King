@@ -9,7 +9,7 @@ export default function Header() {
       <a href="/" className="flex items-center gap-1  ">
         <Image
           src="/logo.svg"
-          alt="TheRetroKing"
+          alt="RetroKing"
           width={40.56}
           height={33.8}
           loading="eager"

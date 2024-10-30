@@ -3,7 +3,7 @@ import SideBar from "@/components/SideBar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Retro King",
+  title: "Retro King™",
   description:
     " A retro game store to experience the classic gaming experience",
 };
