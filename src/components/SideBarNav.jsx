@@ -43,8 +43,8 @@ export default function SideBarNav({ categoryMenu }) {
       <div className="text-accent text-xs mb-2 cursor-default">CATEGORIES</div>
 
       <ul className="bg-muted flex flex-col gap-2 mb-6">
-        {categoryMenu.map((item) => (
-          <li key={item.id}>
+        {categoryMenu.map((item, i) => (
+          <li key={i}>
             <a
               href={`/category/${item.slug}`}
               className={`text-sm tracking-wide flex gap-2 items-center p-1 px-1 ${

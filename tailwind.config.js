@@ -17,7 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         "accent-gradient":
-          "linear-gradient(0deg, rgba(254, 137, 31, 1) 0%, rgba(254, 182, 35, 1) 100%)",
+          "linear-gradient(0deg, rgba(254, 130, 31, 1) 0%, rgba(254, 182, 35, 1) 100%)",
       },
     },
     fontFamily: {

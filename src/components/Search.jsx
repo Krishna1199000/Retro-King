@@ -18,7 +18,7 @@ export default function Search() {
 
   return (
     <form onSubmit={handleSearch} className="relative flex-1 max-w-md mx-auto ">
-      <div className="flex gap-2 items-center justify-center w-full rounded-lg bg-main border border-accent px-3 h-8">
+      <div className="flex gap-2 items-center justify-center w-full rounded-[24px] bg-main border border-accent px-3 h-8">
         <SearchIcon className="text-white w-4 h-4 self-center" />
         <input
           className="w-full h-full bg-main border-none outline-none"
