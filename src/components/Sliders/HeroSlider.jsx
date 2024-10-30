@@ -19,7 +19,9 @@ export default function HeroSlider() {
         slidesPerView={1}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
+          loop: true,
+          pauseOnMouseEnter: true,
         }}
         navigation
         pagination={{ clickable: true }}

@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -25,7 +25,7 @@ export default function CategorySlider({ categories }) {
   };
 
   return (
-    <div className="mb-6 h-screen">
+    <div className="mb-6">
       <div className="flex justify-between gap-4">
         <h2 className="font-display text-xl mb-2 items-center">Categories</h2>
         <a
@@ -44,14 +44,9 @@ export default function CategorySlider({ categories }) {
         navigation
         scrollbar={{ draggable: true }}
         style={{
-          "--swiper-pagination-color": "#fff",
-          "--swiper-pagination-bullet-inactive-color": "#999999",
-          "--swiper-pagination-bullet-inactive-opacity": "1",
-          "--swiper-pagination-bullet-size": "0.6em",
-          "--swiper-pagination-bullet-horizontal-gap": "6px",
-          "--swiper-theme-color": "#fff",
-          "--swiper-navigation-size": "30px",
-          "--swiper-navigation-sides-offset": "30px",
+          "--swiper-theme-color": "#f3f4f6",
+          "--swiper-navigation-size": "40px",
+          "--swiper-navigation-sides-offset": "10px",
         }}
       >
         {categories.map((item, i) => (
@@ -59,10 +54,11 @@ export default function CategorySlider({ categories }) {
             <a href={`/category/${item.slug}`} className="group">
               <div className="overflow-hidden rounded-lg border-accent-secondary border mb-2">
                 <Image
-                  src={`/category/${item.image}`}
+                  src={`/category/${item?.image}`}
                   alt={item.title}
                   width={300}
                   height={300}
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
                 />
               </div>

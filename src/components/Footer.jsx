@@ -7,7 +7,9 @@ export default function Footer() {
         &copy;TheRetroKing
         <img src="/logo.svg" alt="" className="w-5" />
       </div>
-      <div className="flex gap-2">Made with ❤️ by Rishiraj Gupta</div>
+      <div className="text-sm md:text-md flex gap-2">
+        Made with ❤️ by Rishiraj
+      </div>
       <div className="flex gap-4">
         <a
           href="https://github.com/rishiigupta04"

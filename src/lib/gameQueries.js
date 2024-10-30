@@ -2,6 +2,58 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
+export async function getGamesBySelectedCategories(categoryIds) {
+  return await prisma.category.findMany({
+    where: {
+      id: { in: categoryIds },
+      games: {
+        some: {
+          published: true,
+        },
+      },
+    },
+
+    select: {
+      title: true,
+      slug: true,
+      games: {
+        where: {
+          published: true,
+        },
+        take: 4,
+
+        select: {
+          id: true,
+          title: true,
+          slug: true,
+          image: true,
+          game_url: true,
+          description: true,
+          created_at: true,
+        },
+      },
+    },
+  });
+}
+
+export async function getGamesByCategoryId(categoryId) {
+  return await prisma.category.findUnique({
+    where: {
+      id: categoryId,
+    },
+    select: {
+      title: true,
+      slug: true,
+      games: {
+        where: {
+          published: true,
+        },
+        take: 4,
+      },
+    },
+  });
+}
+
 export async function getGameCategories() {
   return await prisma.category.findMany({});
 }

@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function NotFound() {
   return (
-    <section className="flex items-center justify-center h-screen bg-[url('/page/not-found.jpg')] bg-cover ">
+    <section className="flex items-center justify-center h-screen bg-[url('/slide/slide-1.png')] bg-top md:bg-right bg-cover ">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-display mb-2">
           404
         </h1>
         <p className="mb-8 text-lg md:text-xl font-normal text-gray-200">
-          The page you requested does not exist.
+          The page does not exist.
         </p>
         <a
           href="/"
