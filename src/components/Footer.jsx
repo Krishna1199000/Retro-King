@@ -2,7 +2,7 @@ import { Github, Linkedin, Briefcase } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 bg-main left-0 right-0 flex justify-between items-center text-accent py-4 px-6">
+    <footer className=" bg-main flex justify-between items-center text-accent py-4 px-6 rounded-xl">
       <div className=" gap-1 hidden md:flex">
         &copy;TheRetroKing
         <img src="/logo.svg" alt="" className="w-5" />

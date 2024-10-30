@@ -2,6 +2,10 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
+export async function getGameCategories() {
+  return await prisma.category.findMany({});
+}
+
 export async function getCategoryMenu() {
   return await prisma.category.findMany({
     include: {
