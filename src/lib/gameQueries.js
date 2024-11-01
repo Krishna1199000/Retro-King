@@ -2,6 +2,17 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
+export async function getGameBySlug(slug) {
+  return await prisma.game.findUnique({
+    where: {
+      slug: slug,
+    },
+    include: {
+      categories: true,
+    },
+  });
+}
+
 export async function getGamesBySelectedCategories(categoryIds) {
   return await prisma.category.findMany({
     where: {

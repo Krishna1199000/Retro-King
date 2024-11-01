@@ -14,7 +14,7 @@ export default async function Home() {
 
   const [allCategories, category] = await Promise.all([
     getGameCategories(),
-    getGamesByCategoryId(5),
+    // getGamesByCategoryId(5),
   ]);
 
   const selectedCategories = [1, 5];

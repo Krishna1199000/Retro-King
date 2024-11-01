@@ -18,10 +18,10 @@ export default function HeroSlider() {
         spaceBetween={50}
         slidesPerView={1}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
           loop: true,
-          pauseOnMouseEnter: true,
+          pauseOnMouseClick: true,
         }}
         navigation
         pagination={{ clickable: true }}
@@ -79,7 +79,7 @@ export default function HeroSlider() {
             </p>
 
             <a
-              href="#"
+              href="/game/super-mario-64"
               className="text-sm font-semibold bg-accent-gradient py-3 px-6 rounded-xl border border-yellow-400 uppercase"
             >
               Play Mario
@@ -104,7 +104,7 @@ export default function HeroSlider() {
             </p>
 
             <a
-              href="#"
+              href="/game/sonic-the-hedgehog"
               className="text-sm font-semibold bg-accent-gradient py-3 px-6 rounded-xl border border-yellow-400 uppercase"
             >
               Play Sonic
