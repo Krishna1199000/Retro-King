@@ -2,6 +2,14 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
+export async function getAllGames() {
+  return await prisma.game.findMany({
+    where: {
+      published: true,
+    },
+  });
+}
+
 export async function getGamesByCategory(categorySlug, page = 1) {
   const ITEMS_PER_PAGE = 15;
   const skip = (page - 1) * ITEMS_PER_PAGE;
