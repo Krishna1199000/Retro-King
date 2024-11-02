@@ -13,9 +13,9 @@ export default function SideBarNav({ categoryMenu }) {
       slug: "/",
     },
     {
-      name: "New",
+      name: "Live Games",
       icon: Star,
-      slug: "/new-games",
+      slug: "/all-games",
     },
   ];
 

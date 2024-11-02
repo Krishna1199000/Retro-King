@@ -6,6 +6,9 @@ export async function getAllGames() {
   return await prisma.game.findMany({
     where: {
       published: true,
+      game_url: {
+        not: "your-game-here.zip",
+      },
     },
   });
 }

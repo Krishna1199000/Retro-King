@@ -54,7 +54,7 @@ export default function HeroSlider() {
               enjoy them for free. Start playing now!
             </p>
             <a
-              href="/games"
+              href="/all-games"
               className="text-sm font-semibold bg-accent-gradient py-3 px-6 rounded-xl border border-yellow-400 uppercase"
             >
               Explore Now
