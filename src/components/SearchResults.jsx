@@ -1,8 +1,10 @@
+"use client";
+
 import Image from "next/image";
 
 export default function SearchResults({ searchQuery, games }) {
   return (
-    <div className="h-screen">
+    <div className="mb-80">
       <h1 className="font-display text-2xl md:text-3xl mb-4">
         {searchQuery ? "Search Results for " : "No search query provided..."}
         {searchQuery.charAt(0).toUpperCase() + searchQuery.slice(1)}
