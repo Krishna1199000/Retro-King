@@ -5,5 +5,5 @@ export const metadata = {
 };
 
 export default function AllGamesLayout({ children }) {
-  return <div>{children}</div>;
+  return <div>{children} </div>;
 }
