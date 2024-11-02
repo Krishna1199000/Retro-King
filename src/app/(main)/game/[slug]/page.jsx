@@ -1,8 +1,21 @@
 import GameEmulator from "@/components/GameEmulator";
 import { getGameBySlug } from "@/lib/gameQueries";
 
+export async function generateMetadata({ params }) {
+  const game = await getGameBySlug(params.slug);
+  const title =
+    game?.title + " - Retro King" || "Retro King - Free Retro Games";
+  const description = game?.description || "Discover the best free Retro Games";
+
+  return {
+    title,
+    description,
+  };
+}
+
 export default async function Page({ params }) {
   const game = await getGameBySlug(params.slug);
+
   return (
     <div className="mb-8">
       <nav className="rounded-md w-full mb-4">

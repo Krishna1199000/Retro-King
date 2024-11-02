@@ -10,7 +10,7 @@ export default async function Page(req) {
     games = await getSearchResults(searchQuery);
   }
   return (
-    <div>
+    <div className="h-screen">
       <h1 className="font-display text-2xl md:text-3xl mb-4">
         {searchQuery ? "Search Results for " : "No search query provided..."}
         {searchQuery.charAt(0).toUpperCase() + searchQuery.slice(1)}
