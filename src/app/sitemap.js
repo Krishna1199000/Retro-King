@@ -1,4 +1,4 @@
-import { getAllGames } from "$lib/gameQueries";
+import { getAllGames } from "@/lib/gameQueries";
 
 export const revalidate = 60 * 60; // 1 hour
 export default async function sitemap() {
