@@ -40,6 +40,8 @@ export default function CategorySlider({ categories }) {
         modules={[Navigation, Scrollbar, A11y]}
         spaceBetween={20}
         slidesPerView={6}
+        loop
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         breakpoints={breakpoints}
         navigation
         scrollbar={{ draggable: true }}
