@@ -2,6 +2,44 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
+export async function getGamesByCategory(categorySlug, page = 1) {
+  const ITEMS_PER_PAGE = 15;
+  const skip = (page - 1) * ITEMS_PER_PAGE;
+
+  const [games, totalCount] = await Promise.all([
+    prisma.game.findMany({
+      where: {
+        categories: {
+          some: {
+            slug: categorySlug,
+          },
+        },
+        published: true,
+      },
+      skip,
+      take: ITEMS_PER_PAGE,
+    }),
+
+    prisma.game.count({
+      where: {
+        categories: {
+          some: {
+            slug: categorySlug,
+          },
+        },
+        published: true,
+      },
+    }),
+  ]);
+
+  return {
+    games,
+    totalCount,
+    totalPages: Math.ceil(totalCount / ITEMS_PER_PAGE),
+    currentPage: page,
+  };
+}
+
 export async function getGameBySlug(slug) {
   return await prisma.game.findUnique({
     where: {
