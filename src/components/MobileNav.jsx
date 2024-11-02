@@ -24,13 +24,13 @@ export default function MobileNav() {
     },
     {
       name: "New",
-      path: "/new-games",
+      path: "/all-games",
       icon: Flame,
       slug: "new-games",
     },
     {
       name: "Categories",
-      path: "/categories",
+      path: "/category",
       icon: LayoutList,
       slug: "categories",
     },

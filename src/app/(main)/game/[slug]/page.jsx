@@ -59,6 +59,8 @@ export default async function Page({ params }) {
 
       {/* Game emulator component */}
       <GameEmulator game={game} />
+      <h3 className="font-display text-3xl mb-2 mt-12">Discussions</h3>
+      <hr className="border-accent" />
 
       {/* Disqus comments section with Suspense loader */}
       <Suspense
