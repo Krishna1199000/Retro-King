@@ -34,26 +34,6 @@
 - [Disqus](https://disqus.com/) - Comment System
 - [Vercel](https://vercel.com) - Deployment
 
-## 🎯 Key Features Explained
-
-### Game Emulation
-
-The platform uses EmulatorJS to provide seamless gaming experience directly in the browser. Supports multiple console types including:
-
-- Nintendo 64
-- PlayStation
-- SNES
-- Sega Mega Drive
-- Arcade Games
-- MAME 2003
-
-### Search Functionality
-
-Advanced search system with real-time results and category filtering.
-
-### Responsive Design
-
-Fully responsive layout with mobile-first approach and dedicated mobile navigation.
 
 ## 🤝 Contributing
 
