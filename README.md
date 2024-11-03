@@ -1,4 +1,4 @@
-# 🎮 Retro King
+# 🎮 Retro King 🎮
 
 <div align="center">
   <img src="/public/logo.svg" alt="Retro King Logo" width="120" />
@@ -8,10 +8,7 @@
     <br />
     <a href="https://retro-king.vercel.app"><strong>View Demo »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/your-username/retro-king/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/your-username/retro-king/issues">Request Feature</a>
+   
   </p>
 </div>
 
@@ -37,26 +34,6 @@
 - [Disqus](https://disqus.com/) - Comment System
 - [Vercel](https://vercel.com) - Deployment
 
-## 🎯 Key Features Explained
-
-### Game Emulation
-
-The platform uses EmulatorJS to provide seamless gaming experience directly in the browser. Supports multiple console types including:
-
-- Nintendo 64
-- PlayStation
-- SNES
-- Sega Mega Drive
-- Arcade Games
-- MAME 2003
-
-### Search Functionality
-
-Advanced search system with real-time results and category filtering.
-
-### Responsive Design
-
-Fully responsive layout with mobile-first approach and dedicated mobile navigation.
 
 ## 🤝 Contributing
 
@@ -77,12 +54,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Rishi Raj Gupta - [@rishi-raj-gupta45](https://www.linkedin.com/in/rishi-raj-gupta45/)
 
 Portfolio: [https://rishi-portfolio-website.vercel.app/](https://rishi-portfolio-website.vercel.app/)
-
-Project Link: [https://github.com/your-username/retro-king](https://retro-king.vercel.app/)
-
-## 🙏 Acknowledgments
-
-- [EmulatorJS](https://emulatorjs.org/)
-- [Next.js](https://nextjs.org/)
-- [Vercel](https://vercel.com)
-- [TailwindCSS](https://tailwindcss.com/)
