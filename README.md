@@ -8,10 +8,7 @@
     <br />
     <a href="https://retro-king.vercel.app"><strong>View Demo »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/your-username/retro-king/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/your-username/retro-king/issues">Request Feature</a>
+   
   </p>
 </div>
 
