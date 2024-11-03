@@ -17,7 +17,7 @@ export default async function Home() {
     // getGamesByCategoryId(5),
   ]);
 
-  const selectedCategories = [1, 5];
+  const selectedCategories = [1, 5, 7, 4];
 
   const multipleCategories = await getGamesBySelectedCategories(
     selectedCategories
@@ -32,8 +32,10 @@ export default async function Home() {
           Most Popular <Gamepad className="inline-block w-12  h-12 ml-2 " />
         </h1>
       </div>
-      <GameCategory category={multipleCategories[0]} />
-      <GameCategory category={multipleCategories[1]} />
+      <GameCategory category={multipleCategories[0]} /> {/* arcade */}
+      <GameCategory category={multipleCategories[1]} /> {/* sega */}
+      <GameCategory category={multipleCategories[3]} /> {/* snes */}
+      <GameCategory category={multipleCategories[2]} /> {/* n64 */}
     </>
   );
 }

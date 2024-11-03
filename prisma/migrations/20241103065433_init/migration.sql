@@ -43,3 +43,5 @@ ALTER TABLE "_CategoryToGame" ADD CONSTRAINT "_CategoryToGame_A_fkey" FOREIGN KE
 
 -- AddForeignKey
 ALTER TABLE "_CategoryToGame" ADD CONSTRAINT "_CategoryToGame_B_fkey" FOREIGN KEY ("B") REFERENCES "Game"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE "_CategoryToGame" REPLICA IDENTITY FULL;

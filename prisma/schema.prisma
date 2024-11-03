@@ -22,7 +22,7 @@ model Game {
   game_url String
   published Boolean
   created_at DateTime @default(now())
-  categories Category[]
+  categories Category[] 
 }
 
 model Category {
@@ -30,6 +30,6 @@ model Category {
   title String
   slug String
   core String
-  image String @default("default_image.png")
-  games Game[]
+  image String @default("/category/placeholder.jpg")
+  games Game[] 
 }

@@ -47,7 +47,7 @@ async function main() {
     },
     {
       id: 7,
-      title: "Sega Mega Drive",
+      title: "SEGA",
       slug: "sega-mega-drive",
       image: "sega.jpg",
       core: "segaMD",
@@ -85,7 +85,7 @@ async function main() {
       description:
         "Disney's action platformer following Hercules' journey from zero to hero. Features fluid animation and memorable characters from the animated film.",
       game_url: "your-game-here.zip",
-      published: true,
+      published: false,
       categories: [1],
     },
     {
@@ -96,7 +96,7 @@ async function main() {
       description:
         "A fast-paced martial arts arcade game with unique Chinese warriors and special moves. Known for its challenging gameplay and distinctive art style.",
       game_url: "your-game-here.zip",
-      published: true,
+      published: false,
       categories: [1],
     },
     {
@@ -127,11 +127,12 @@ async function main() {
       slug: "super-mario-64",
       image: "super-mario-64.jpg",
       description:
-        "The iconic platformer starring Nintendo's famous plumber. Jump, run, and collect coins through colorful levels in the Mushroom Kingdom.",
+        "Jump, run, and collect coins through colorful levels in the Mushroom Kingdom.",
       game_url: "super-mario-bros.zip",
       published: true,
       categories: [4],
     },
+
     {
       id: 8,
       title: "Automobili Lamborghini",
@@ -151,7 +152,7 @@ async function main() {
       description:
         "A realistic tennis simulation for the N64. Features multiple game modes, tournaments, and precise ball physics.",
       game_url: "your-game-here.zip",
-      published: true,
+      published: false,
       categories: [5],
     },
     {
@@ -169,10 +170,10 @@ async function main() {
       id: 11,
       title: "X-Men - Children Of The Atom",
       slug: "x-men-children-of-the-atom",
-      image: "rayman-2-the-great-escape.jpg",
+      image: "x-men-children-of-the-atom.jpg",
       description:
         "Marvel's mutant heroes clash in this arcade fighting game. Features comic-accurate special moves and stunning animations.",
-      game_url: "your-game-here.zip",
+      game_url: "xmcota.zip",
       published: true,
       categories: [1],
     },
@@ -182,9 +183,9 @@ async function main() {
       slug: "teenage-mutant-hero-turtles",
       image: "teenage-mutant-hero-turtles.jpg",
       description:
-        "Join the pizza-loving heroes in this classic arcade beat 'em up. Fight through waves of Foot Clan soldiers in solo or cooperative play.",
+        "Join the pizza-loving heroes in this classic arcade beat 'em up.",
       game_url: "teenage-mutant-hero-turtles.zip",
-      published: true,
+      published: false,
       categories: [1],
     },
     {
@@ -193,10 +194,46 @@ async function main() {
       slug: "sonic-the-hedgehog",
       image: "sonic-the-hedgehog.jpg",
       description:
-        "SEGA's speedy mascot races through colorful zones collecting rings. A platforming classic known for its fast-paced gameplay and catchy music.",
+        "SEGA's speedy mascot races through colorful zones collecting rings. A classic known for its fast-paced gameplay and catchy music.",
       game_url: "sonic-the-hedgehog.zip",
       published: true,
       categories: [7],
+    },
+
+    {
+      id: 14,
+      title: "Super Mario Kart",
+      slug: "super-mario-kart",
+      image: "super-mario-kart.jpg",
+      description:
+        "A classic kart racing game featuring beloved Nintendo characters.",
+      game_url: "super-mario-kart.zip",
+      published: true,
+      categories: [4],
+    },
+
+    {
+      id: 14,
+      title: "Super Mario Kart",
+      slug: "super-mario-kart",
+      image: "super-mario-kart.jpg",
+      description:
+        "A classic kart racing game featuring beloved Nintendo characters.",
+      game_url: "super-mario-kart.zip",
+      published: true,
+      categories: [4],
+    },
+
+    {
+      id: 15,
+      title: "Legend of the Zelda",
+      slug: "legend-of-the-zelda",
+      image: "legend-of-the-zelda.jpg",
+      description:
+        "Pay tribute to the classic by playing the very first Zelda game! Explore the huge overworld as a young boy in The Legend of Zelda!",
+      game_url: "legend-of-the-zelda.zip",
+      published: true,
+      categories: [4],
     },
   ];
 
@@ -234,7 +271,7 @@ async function main() {
         game_url: game.game_url,
         published: game.published,
         categories: {
-          connect: game.categories.map((categoryId) => ({ id: categoryId })),
+          set: game.categories.map((categoryId) => ({ id: categoryId })),
         },
       },
       create: {

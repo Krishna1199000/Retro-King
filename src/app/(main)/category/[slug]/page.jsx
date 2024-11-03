@@ -10,7 +10,7 @@ export default async function Page({ params, searchParams }) {
   );
 
   return (
-    <div className="mb-16 h-screen">
+    <div className="mb-16">
       <h1 className="font-display text-3xl mb-4 capitalize">{params.slug}</h1>
       <nav className="rounded-md w-full">
         <ol className="list-reset flex">
