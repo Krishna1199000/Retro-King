@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎮 Retro King
 
-## Getting Started
+<div align="center">
+  <img src="/public/logo.svg" alt="Retro King Logo" width="120" />
+  <h3 align="center">Retro King - Classic Gaming Experience</h3>
+  <p align="center">
+    A modern web platform for playing classic retro games directly in your browser
+    <br />
+    <a href="https://retro-king.vercel.app"><strong>View Demo »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/your-username/retro-king/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/your-username/retro-king/issues">Request Feature</a>
+  </p>
+</div>
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎯 Play classic retro games directly in your browser
+- 🎮 Multiple gaming console support (SNES, N64, PlayStation, etc.)
+- 🔍 Advanced game search functionality
+- 📱 Responsive design for all devices
+- 💬 Integrated Disqus comments system
+- 🗂️ Categorized game library
+- 🌊 Smooth animations and transitions
+- 🎨 Modern UI with dark theme
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Built With
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Next.js 14](https://nextjs.org/) - React Framework
+- [Prisma](https://www.prisma.io/) - ORM
+- [PostgreSQL](https://www.postgresql.org/) - Database
+- [TailwindCSS](https://tailwindcss.com/) - Styling
+- [EmulatorJS](https://emulatorjs.org/) - Game Emulation
+- [Swiper](https://swiperjs.com/) - Touch Slider
+- [Disqus](https://disqus.com/) - Comment System
+- [Vercel](https://vercel.com) - Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Key Features Explained
 
-## Learn More
+### Game Emulation
 
-To learn more about Next.js, take a look at the following resources:
+The platform uses EmulatorJS to provide seamless gaming experience directly in the browser. Supports multiple console types including:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Nintendo 64
+- PlayStation
+- SNES
+- Sega Mega Drive
+- Arcade Games
+- MAME 2003
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Search Functionality
 
-## Deploy on Vercel
+Advanced search system with real-time results and category filtering.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fully responsive layout with mobile-first approach and dedicated mobile navigation.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👤 Contact
+
+Rishi Raj Gupta - [@rishi-raj-gupta45](https://www.linkedin.com/in/rishi-raj-gupta45/)
+
+Portfolio: [https://rishi-portfolio-website.vercel.app/](https://rishi-portfolio-website.vercel.app/)
+
+Project Link: [https://github.com/your-username/retro-king](https://retro-king.vercel.app/)
+
+## 🙏 Acknowledgments
+
+- [EmulatorJS](https://emulatorjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Vercel](https://vercel.com)
+- [TailwindCSS](https://tailwindcss.com/)
