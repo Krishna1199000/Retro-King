@@ -54,12 +54,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Rishi Raj Gupta - [@rishi-raj-gupta45](https://www.linkedin.com/in/rishi-raj-gupta45/)
 
 Portfolio: [https://rishi-portfolio-website.vercel.app/](https://rishi-portfolio-website.vercel.app/)
-
-Project Link: [(https://retro-king.vercel.app/)
-
-## 🙏 Acknowledgments
-
-- [EmulatorJS](https://emulatorjs.org/)
-- [Next.js](https://nextjs.org/)
-- [Vercel](https://vercel.com)
-- [TailwindCSS](https://tailwindcss.com/)
