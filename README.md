@@ -75,7 +75,7 @@ Rishi Raj Gupta - [@rishi-raj-gupta45](https://www.linkedin.com/in/rishi-raj-gup
 
 Portfolio: [https://rishi-portfolio-website.vercel.app/](https://rishi-portfolio-website.vercel.app/)
 
-Project Link: [https://github.com/your-username/retro-king](https://retro-king.vercel.app/)
+Project Link: [(https://retro-king.vercel.app/)
 
 ## 🙏 Acknowledgments
 
