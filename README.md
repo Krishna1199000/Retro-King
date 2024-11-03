@@ -1,4 +1,4 @@
-# 🎮 Retro King
+# 🎮 Retro King 🎮
 
 <div align="center">
   <img src="/public/logo.svg" alt="Retro King Logo" width="120" />
