@@ -47,7 +47,7 @@ export default function HeroSlider() {
               Free Arcade Games
             </div>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl uppercase shadow-lg">
-              Play retro games for free
+              Play retro games
             </h1>
             <p className="my-6 max-w-[418px] font-normal text-white md:text-zinc-100">
               Relive the classics! Dive into our collection of retro games and

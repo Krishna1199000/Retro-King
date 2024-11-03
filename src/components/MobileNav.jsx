@@ -23,7 +23,7 @@ export default function MobileNav() {
       slug: null,
     },
     {
-      name: "New",
+      name: "Live Games",
       path: "/all-games",
       icon: Flame,
       slug: "new-games",
@@ -34,18 +34,18 @@ export default function MobileNav() {
       icon: LayoutList,
       slug: "categories",
     },
-    {
-      name: "About",
-      path: "/about",
-      icon: BookA,
-      slug: "about",
-    },
-    {
-      name: "Contact",
-      path: "/contact",
-      icon: MapPinHouse,
-      slug: "contact",
-    },
+    // {
+    //   name: "About",
+    //   path: "/about",
+    //   icon: BookA,
+    //   slug: "about",
+    // },
+    // {
+    //   name: "Contact",
+    //   path: "/contact",
+    //   icon: MapPinHouse,
+    //   slug: "contact",
+    // },
   ];
 
   return (

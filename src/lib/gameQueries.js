@@ -128,9 +128,9 @@ export async function getCategoryMenu() {
 
 export async function getSearchResults(params) {
   // Don't search if the term is too short
-  if (params.length < 2) {
-    return [];
-  }
+  // if (params.length < 2) {
+  //   return [];
+  // }
 
   return await prisma.game.findMany({
     where: {

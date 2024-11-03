@@ -20,10 +20,7 @@ export default function Header() {
       </a>
       <Search />
 
-      <nav className=" flex items-center justify-center gap-4 md:gap-6">
-        <a href="#">
-          <Settings className="w-5 h-5" />
-        </a>
+      <nav className=" flex items-center justify-center gap-4 md:gap-6 ">
         <MobileNav />
       </nav>
     </header>
