@@ -60,7 +60,8 @@ async function main() {
       title: "Cadillacs and Dinosaurs",
       slug: "cadillacs-and-dinosaurs",
       image: "cadillacs-and-dinosaurs.jpg",
-      description: "This is the game description.",
+      description:
+        "A beat 'em up arcade classic where players battle dinosaur riders in a post-apocalyptic world. Features colorful graphics and cooperative gameplay.",
       game_url: "dino.zip",
       published: true,
       categories: [1],
@@ -70,7 +71,8 @@ async function main() {
       title: "Asterix and the Great Rescue",
       slug: "asterix-and-the-great-rescue",
       image: "asterix-and-the-great-rescue.jpg",
-      description: "This is the game description.",
+      description:
+        "Join Asterix and Obelix in this side-scrolling adventure to rescue Getafix. Features classic Sega Mega Drive platforming and humor from the beloved comics.",
       game_url: "asterix-and-the-great-rescue.zip",
       published: true,
       categories: [7],
@@ -80,7 +82,8 @@ async function main() {
       title: "Disney's Hercules",
       slug: "disney-s-hercules",
       image: "disney-s-hercules.jpg",
-      description: "This is the game description.",
+      description:
+        "Disney's action platformer following Hercules' journey from zero to hero. Features fluid animation and memorable characters from the animated film.",
       game_url: "your-game-here.zip",
       published: true,
       categories: [1],
@@ -90,7 +93,8 @@ async function main() {
       title: "Biaofeng Zhanjing",
       slug: "biaofeng-zhanjing",
       image: "biaofeng-zhanjing.jpg",
-      description: "This is the game description.",
+      description:
+        "A fast-paced martial arts arcade game with unique Chinese warriors and special moves. Known for its challenging gameplay and distinctive art style.",
       game_url: "your-game-here.zip",
       published: true,
       categories: [1],
@@ -100,7 +104,8 @@ async function main() {
       title: "Street Fighter II",
       slug: "street-fighter-ii",
       image: "street-fighter-ii.jpg",
-      description: "This is the game description.",
+      description:
+        "The legendary fighting game that defined the genre. Choose from eight world warriors, each with their own special moves and fighting styles.",
       game_url: "street-fighter-5.zip",
       published: true,
       categories: [4],
@@ -110,7 +115,8 @@ async function main() {
       title: "Captain Commando",
       slug: "captain-commando",
       image: "captain-commando.jpg",
-      description: "This is the game description.",
+      description:
+        "A sci-fi beat 'em up where a futuristic super cop fights crime. Features four playable characters and power-ups to collect.",
       game_url: "captcomm.zip",
       published: true,
       categories: [1],
@@ -120,7 +126,8 @@ async function main() {
       title: "Super Mario",
       slug: "super-mario-64",
       image: "super-mario-64.jpg",
-      description: "This is the game description.",
+      description:
+        "The iconic platformer starring Nintendo's famous plumber. Jump, run, and collect coins through colorful levels in the Mushroom Kingdom.",
       game_url: "super-mario-bros.zip",
       published: true,
       categories: [4],
@@ -130,7 +137,8 @@ async function main() {
       title: "Automobili Lamborghini",
       slug: "automobili-lamborghini",
       image: "automobili-lamborghini.jpg",
-      description: "This is the game description.",
+      description:
+        "High-speed racing game featuring authentic Lamborghini vehicles and tracks. Experience the thrill of driving exotic supercars.",
       game_url: "automobili-lamborghini.zip",
       published: true,
       categories: [5],
@@ -140,7 +148,8 @@ async function main() {
       title: "Centre Court Tennis",
       slug: "centre-court-tennis",
       image: "centre-court-tennis.jpg",
-      description: "This is the game description.",
+      description:
+        "A realistic tennis simulation for the N64. Features multiple game modes, tournaments, and precise ball physics.",
       game_url: "your-game-here.zip",
       published: true,
       categories: [5],
@@ -150,7 +159,8 @@ async function main() {
       title: "Rayman 2 - The Great Escape",
       slug: "rayman-2-the-great-escape",
       image: "rayman-2-the-great-escape.jpg",
-      description: "This is the game description.",
+      description:
+        "The beloved platforming hero returns in this 3D adventure. Explore magical worlds while collecting Lums and freeing imprisoned creatures.",
       game_url: "rayman-2-the-great-escape.zip",
       published: true,
       categories: [5],
@@ -160,7 +170,8 @@ async function main() {
       title: "X-Men - Children Of The Atom",
       slug: "x-men-children-of-the-atom",
       image: "rayman-2-the-great-escape.jpg",
-      description: "This is the game description.",
+      description:
+        "Marvel's mutant heroes clash in this arcade fighting game. Features comic-accurate special moves and stunning animations.",
       game_url: "your-game-here.zip",
       published: true,
       categories: [1],
@@ -170,7 +181,8 @@ async function main() {
       title: "Teenage Mutant Hero Turtles",
       slug: "teenage-mutant-hero-turtles",
       image: "teenage-mutant-hero-turtles.jpg",
-      description: "This is the game description.",
+      description:
+        "Join the pizza-loving heroes in this classic arcade beat 'em up. Fight through waves of Foot Clan soldiers in solo or cooperative play.",
       game_url: "teenage-mutant-hero-turtles.zip",
       published: true,
       categories: [1],
@@ -180,7 +192,8 @@ async function main() {
       title: "Sonic The Hedgehog",
       slug: "sonic-the-hedgehog",
       image: "sonic-the-hedgehog.jpg",
-      description: "This is the game description.",
+      description:
+        "SEGA's speedy mascot races through colorful zones collecting rings. A platforming classic known for its fast-paced gameplay and catchy music.",
       game_url: "sonic-the-hedgehog.zip",
       published: true,
       categories: [7],
@@ -221,7 +234,7 @@ async function main() {
         game_url: game.game_url,
         published: game.published,
         categories: {
-          set: game.categories.map((categoryId) => ({ id: categoryId })),
+          connect: game.categories.map((categoryId) => ({ id: categoryId })),
         },
       },
       create: {

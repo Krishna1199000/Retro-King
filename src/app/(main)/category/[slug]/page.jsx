@@ -3,14 +3,14 @@ import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 
 export default async function Page({ params, searchParams }) {
-  const page = parseInt(searchParams.page) || 1;
+  const page = (await parseInt(searchParams.page)) || 1;
   const { games, totalPages, currentPage } = await getGamesByCategory(
     params.slug,
     page
   );
 
   return (
-    <div className="mb-16">
+    <div className="mb-16 h-screen">
       <h1 className="font-display text-3xl mb-4 capitalize">{params.slug}</h1>
       <nav className="rounded-md w-full">
         <ol className="list-reset flex">
@@ -28,7 +28,7 @@ export default async function Page({ params, searchParams }) {
           </li>
         </ol>
       </nav>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-6 mt-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-y-4   gap-4 mb-6 mt-4">
         {games.length === 0 ? (
           <div className="h-[70vh] text-md text-accent mt-4 ">
             No games found in this category.
@@ -48,6 +48,9 @@ export default async function Page({ params, searchParams }) {
                 />
               </div>
               <h1 className=" font-sans text-md mt-2">{game.title}</h1>
+              <p className="text-accent text-sm line-clamp-3 overflow-hidden text-ellipsis ">
+                {game.description}
+              </p>
             </a>
           ))
         )}

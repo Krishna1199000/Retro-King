@@ -47,7 +47,7 @@ export default function CategorySlider({ categories }) {
         scrollbar={{ draggable: true }}
         style={{
           "--swiper-theme-color": "#f3f4f6",
-          "--swiper-navigation-size": "40px",
+          "--swiper-navigation-size": "20px",
           "--swiper-navigation-sides-offset": "10px",
         }}
       >
