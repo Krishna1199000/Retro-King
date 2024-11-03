@@ -44,7 +44,7 @@ export default async function Page({ params }) {
             <span className="text-gray-500 mx-2">/</span>
           </li>
           <li>
-            <a href={`/${game.categories[0]?.title.toLowerCase()}`}>
+            <a href={`/category/${game.categories[0]?.slug.toLowerCase()}`}>
               {game.categories[0]?.title}
             </a>
           </li>
