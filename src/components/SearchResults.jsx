@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SearchResults({ searchQuery, games }) {
   return (
-    <div className=" h-screen">
+    <div className=" h-screen  overflow-hidden mb-6">
       <h1 className="font-display text-2xl md:text-3xl mb-4">
         {searchQuery ? 'Search Results for "' : "No search query provided..."}
         {searchQuery.charAt(0).toUpperCase() + searchQuery.slice(1)}
@@ -17,7 +17,10 @@ export default function SearchResults({ searchQuery, games }) {
 
       <ul className="grid grid-cols-1 md:grid-cols-2  gap-4">
         {games.map((game) => (
-          <li key={game.id} className="hover:shadow-lg hover:scale-105">
+          <li
+            key={game.id}
+            className="hover:shadow-lg hover:scale-105 transition-all duration-300"
+          >
             <a
               href={`/game/${game.slug}`}
               className="flex gap-4 h-40 bg-main hover:bg-accent-secondary p-4 rounded-lg"
