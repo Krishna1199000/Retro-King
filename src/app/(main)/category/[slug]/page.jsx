@@ -28,13 +28,9 @@ export default async function Page({ params, searchParams }) {
           </li>
         </ol>
       </nav>
-      <div className="h-[70vh] grid grid-cols-2 md:grid-cols-3 gap-y-4   gap-4 mb-6 mt-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-y-4   gap-4 mb-6 mt-4">
         {games.length === 0 ? (
-<<<<<<< HEAD
           <div className="h-[70vh] sm:h-screen text-md text-accent mt-4 ">
-=======
-          <div className=" text-md text-accent mt-4 ">
->>>>>>> 90d22234a6498091badddd585742048cafe2c234
             No games found in this category.
           </div>
         ) : (
