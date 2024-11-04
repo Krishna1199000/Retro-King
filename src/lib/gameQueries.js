@@ -121,7 +121,11 @@ export async function getGameCategories() {
 export async function getCategoryMenu() {
   return await prisma.category.findMany({
     include: {
-      games: true,
+      games: {
+        where: {
+          published: true,
+        },
+      },
     },
   });
 }

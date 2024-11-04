@@ -30,7 +30,7 @@ export default async function Page({ params, searchParams }) {
       </nav>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-y-4   gap-4 mb-6 mt-4">
         {games.length === 0 ? (
-          <div className="h-[70vh] text-md text-accent mt-4 ">
+          <div className="h-[70vh] sm:h-screen text-md text-accent mt-4 ">
             No games found in this category.
           </div>
         ) : (
