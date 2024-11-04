@@ -200,17 +200,7 @@ async function main() {
       categories: [7],
     },
 
-    {
-      id: 14,
-      title: "Super Mario Kart",
-      slug: "super-mario-kart",
-      image: "super-mario-kart.jpg",
-      description:
-        "A classic kart racing game featuring beloved Nintendo characters.",
-      game_url: "super-mario-kart.zip",
-      published: true,
-      categories: [4],
-    },
+ 
 
     {
       id: 15,
