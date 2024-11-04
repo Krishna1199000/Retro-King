@@ -132,7 +132,7 @@ export async function getCategoryMenu() {
 
 export async function getSearchResults(params) {
   // Don't search if the term is too short
-  // if (params.length < 2) {
+  // if (params.length < 3) {
   //   return [];
   // }
 
