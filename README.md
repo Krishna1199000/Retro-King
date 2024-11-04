@@ -6,7 +6,7 @@
   <p align="center">
     A modern web platform for playing classic retro games directly in your browser
     <br />
-    <a href="https://retro-king.vercel.app"><strong>View Demo »</strong></a>
+    <a href="https://retro-king.vercel.app"><strong>View Live »</strong></a>
     <br />
    
   </p>
