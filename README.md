@@ -51,6 +51,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👤 Contact
 
-Rishi Raj Gupta - [@rishi-raj-gupta45](https://www.linkedin.com/in/rishi-raj-gupta45/)
+Rishi Raj Gupta - [LinkedIn](https://www.linkedin.com/in/rishi-raj-gupta45/)
 
-Portfolio: [https://rishi-portfolio-website.vercel.app/](https://retro-king.vercel.app/)
+Portfolio: [Website](https://rishiraj-gupta.vercel.app/)
