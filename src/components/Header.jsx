@@ -2,7 +2,6 @@ import Image from "next/image";
 import Search from "./Search";
 import { Settings } from "lucide-react";
 import MobileNav from "./MobileNav";
-
 export default function Header() {
   return (
     <header className="px-4 flex h-14 shrink-0 items-center gap-2">
