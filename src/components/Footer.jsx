@@ -8,18 +8,18 @@ export default function Footer() {
         <img src="/logo.svg" alt="" className="w-5" />
       </div>
       <div className="text-sm md:text-md flex gap-2">
-        Made with ❤️ by Rishiraj
+        Made with ❤️ by Krishna
       </div>
       <div className="flex gap-4">
         <a
-          href="https://github.com/rishiigupta04"
+          href="https://github.com/Krishna1199000"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" 
         >
           <Github className="w-6 h-6 text-accent hover:text-white transition-colors" />
         </a>
         <a
-          href="https://www.linkedin.com/in/rishi-raj-gupta45/"
+          href="https://www.linkedin.com/in/krishna-gohil-a3860025b/"
           target="_blank"
           rel="noopener noreferrer"
         >
