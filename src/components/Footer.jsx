@@ -26,7 +26,7 @@ export default function Footer() {
           <Linkedin className="w-6 h-6 text-accent hover:text-white transition-colors" />
         </a>
         <a
-          href="https://rishiraj-gupta.vercel.app/"
+          href="https://portfolio-krishna-psi.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
